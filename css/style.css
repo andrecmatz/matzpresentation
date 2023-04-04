@@ -1,0 +1,262 @@
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/*BG*/
+
+body {
+    background-image: url("./../img/bg.png")
+}
+
+/*HEADER*/
+
+.nome-principal {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: 2em;
+    color: white;
+    text-transform: uppercase;
+    display: grid;
+}
+
+header h2 {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    margin-left: 445px;
+    margin-top: -150px;
+    display: grid;
+
+}
+
+nav {
+    width: 60%;
+    height: 60%;
+    margin-left: 700px;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.navegacao {
+    width: 50%;
+}
+
+.navegacao li {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.div-header {
+    display: flex;
+    align-items: center;
+    margin-top: 4em;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+
+.div-header img {
+    width: 400px;
+    height: 400px;
+    margin-top: 1.5em;
+    border: none;
+    border-radius: 50%;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s all;
+}
+
+.div-header img:hover {
+    transform: scale(1.2);
+}
+
+li a{
+    color: white;
+    transition: 0.5s all;
+}
+
+li a:hover {
+    color: #0A69C2;
+}
+
+li {
+    transition: 0.5s all;
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
+/*Sobre*/
+
+.sobre-titulo {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 5.5em;
+    margin-top: 3em;
+}
+
+.sobre-titulo2 {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 9.9em;
+    margin-top: 2em;
+}
+
+.paragrafos {
+    color: white;
+    font-size: .950rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    line-height: 1.7;
+    margin-inline-start: 29em;
+    margin-top: 20px;
+    background: #0A69C2;
+    width: 50%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*Experiencas*/
+
+.tempo {
+    font-family: 'Roboto Mono', monospace;
+    color: #0A69C2;
+    position: absolute;
+    left: 17%;
+    top: 136%;
+}
+
+.tempo2 {
+    font-family: 'Roboto Mono', monospace;
+    color: #0A69C2;
+    position: absolute;
+    left: 17%;
+    top: 147%;
+}
+
+.experiencias {
+    color: white;
+    font-size: .950rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+    line-height: 1.7;
+    margin-inline-start: 29em;
+    margin-top: 20px;
+    background: #0A69C2;
+    width: 50%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*Formacao*/
+
+.sobre-titulo3 {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 5.5em;
+    margin-top: 2em;
+}
+
+.pformacao {
+    color: white;
+    font-size: .950rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    line-height: 1.7;
+    margin-inline-start: 29em;
+    margin-top: 20px;
+    background: #0A69C2;
+    width: 50%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tempo3 {
+    font-family: 'Roboto Mono', monospace;
+    color: #0A69C2;
+    position: absolute;
+    top: 199%;
+    left: 17%;
+}
+
+/*Rodape*/
+
+.sobre-titulo4 {
+    width: 22%;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-left: 9em;
+    border-bottom: 1px solid white;
+    border-width: 10px;
+}
+
+.whats{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 24.4em;
+    margin-top: 2em;
+}
+
+.qrcode{
+    width: 200px;
+    height: 200px;
+    margin-top: 1.5em;
+    margin-left: 45.3em;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0A69C2;
+    text-transform: uppercase;
+    margin-left: 45.5em;
+}
+
+.linkedin {
+    position: absolute;
+    top: 240%;
+    left: 52.5%;
+
+    width: 100px;
+    height: 100px;
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 52em;
+    margin-top: 5.5em;
+    margin-bottom: 2em;
+}
+
+.logo {
+    width: 100px;
+    width: 100px;
+    margin-left: 54.3em;
+    margin-bottom: 5em;
+}
+
+
